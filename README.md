@@ -21,10 +21,10 @@ To ignore certain files to stop adding into the repo
 
 ## **5. Basics commint**
 To have a log of commited files or take a snapshot
-```git commint -m "{commit_message}"```
+```git commit -m "{commit_message}"```
 
 To commit without and add files to staging at the same time is done by
-```git commint -a -m "{commit_message}"```
+```git commit -a -m "{commit_message}"```
 
 ## **6. Git Remote**
 To to config the git repo to the remote
@@ -34,3 +34,8 @@ will add the remote url to the local repo
 ## **7. Git Push**
 ```git push origin master```
 will push the local repo code the remote repo
+
+## **8. Fetch and Merge**
+```git fetch``` will download the file in memory
+
+```git merge origin/master``` will merge local files with remote
