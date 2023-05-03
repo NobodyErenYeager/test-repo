@@ -24,3 +24,12 @@ To have a log of commited files or take a snapshot
 ```git commint -m "{commit_message}"```
 To commit without and add files to staging at the same time is done by
 ```git commint -a -m "{commit_message}"```
+
+## **6. Git Remote**
+To to config the git repo to the remote
+```git remote add origin {repo_url}```
+will add the remote url to the local repo
+
+## **7. Git Push**
+```git push origin master```
+will push the local repo code the remote repo
