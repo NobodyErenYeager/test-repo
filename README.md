@@ -39,3 +39,6 @@ will push the local repo code the remote repo
 ```git fetch``` will download the file in memory
 
 ```git merge origin/master``` will merge local files with remote
+
+## **9. Pull**
+```git pull origin master``` will fetch and merge at the same time
