@@ -44,3 +44,6 @@ will push the local repo code the remote repo
 ```git pull origin master``` will fetch and merge at the same time
 
 ```git pull``` is enough when the ```-u``` flag is added in when it is commited
+
+## **10. Clone**
+```git clone {repo_url} {folder_name}``` will clone a repo to local directory
