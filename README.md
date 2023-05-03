@@ -42,3 +42,5 @@ will push the local repo code the remote repo
 
 ## **9. Pull**
 ```git pull origin master``` will fetch and merge at the same time
+
+```git pull``` is enough when the ```-u``` flag is added in when it is commited
